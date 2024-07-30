@@ -14,11 +14,11 @@ Other contains the detailed results in the paper due to space limit.
 
 ## Implementation
 
-We implement MigratePro in Python that supports Android apps. The experiments are based on Pixel 3 Emulators running Android 6.0. For detailed instructions on how to run MigratePro, please refer to `Code/Instruction.md'.
+We implement MigratePro in Python that supports Android apps. The experiments are based on Pixel 3 Emulators running Android 6.0. 
 
 ## Acknowledgement
 
-The code of exploration is partly insibired by Droidbot. 
+The code of exploration is partly insbired by Droidbot. 
 
 Li, Yuanchun, el al. ''Droidbot: a lightweight UI-guided test input generator for Android.'' In Proceedings of the 39th International Conference on Software Engineeering Companion (ICSE-C'17). Buenos Aires, Argentina, 2017.
 
