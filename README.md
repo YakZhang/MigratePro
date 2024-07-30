@@ -4,9 +4,11 @@ MigratePro is an approach to enhancing GUI test case migration via synthesizing 
 
 
 ## Overview
-Stage-1/ contains the source code for the first stage
-Stage-2/ contains the source code for the second stage
-Other/ contains the detailed results in the paper due to space limit.
+Stage-1 contains the source code for the first stage.
+
+Stage-2 contains the source code for the second stage.
+
+Other contains the detailed results in the paper due to space limit.
 
 
 
@@ -16,7 +18,7 @@ We implement MigratePro in Python that supports Android apps. The experiments ar
 
 ## Acknowledgement
 
-The code of exploration/ is partly insibired by Droidbot. Thanks to Droidbot!
+The code of exploration is partly insibired by Droidbot. 
 
 Li, Yuanchun, el al. ''Droidbot: a lightweight UI-guided test input generator for Android.'' In Proceedings of the 39th International Conference on Software Engineeering Companion (ICSE-C'17). Buenos Aires, Argentina, 2017.
 
