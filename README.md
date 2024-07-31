@@ -18,13 +18,13 @@ We implement MigratePro in Python that supports Android apps. The experiments ar
 
 ## Acknowledgement
 
-The code of exploration is partly insbired by Droidbot. 
+The code of exploration in Stage-2 is partly inspired by Droidbot. 
 
 Li, Yuanchun, el al. ''Droidbot: a lightweight UI-guided test input generator for Android.'' In Proceedings of the 39th International Conference on Software Engineeering Companion (ICSE-C'17). Buenos Aires, Argentina, 2017.
 
 ## Related Paper
 
 Yakun Zhang, Qihao Zhu, Jiwei Yan, Chen Liu, Wenjie Zhang, Yifan Zhao, Dan Hao, and Lu Zhang. 2024.
-Systhesis-based Enhancement for GUI Test Case Migration. In Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'24), September 16-20, 2024, Vienna, Austria, 13 pages.
+Systhesis-Based Enhancement for GUI Test Case Migration. In Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'24), September 16-20, 2024, Vienna, Austria, 13 pages.
 
-If this repositary is useful for your research, please cite this paper.
+If this repository is useful for your research, please cite this paper.
