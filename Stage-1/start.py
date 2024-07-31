@@ -1,5 +1,5 @@
 
-from execution_modification import Generation,test_search
+from execution_modification import Generation
 import pandas as pd
 from sequence_generate import base_generation
 import argparse
@@ -25,9 +25,8 @@ if __name__ == "__main__":
     generation = Generation()
     df = pd.read_csv(migrated_test_case)
     tgt_combine_true_test_case,tgt_combine_consider_test_case = generation.combine_test_case(df,0.5)
-    executable_case, unexecutable_case = test_search(tgt_combine_true_test_case, tgt_combine_consider_test_case, df)
-    generate_script(tgt_app_name,function,executable_case,df,execute_save_path,style='')
-    generate_script(tgt_app_name,function,unexecutable_case,df,unexecute_save_path,style='')
+    generate_script(tgt_app_name,function,tgt_combine_true_test_case,df,execute_save_path,style='')
+    generate_script(tgt_app_name,function,tgt_combine_consider_test_case,df,unexecute_save_path,style='')
     explore_state(execute_save_path,apk_path,state_save_path)
     explore_state(unexecute_save_path,apk_path,state_save_path)
     base_generation(migrated_test_case,base_sequence_path)
